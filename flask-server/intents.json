@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "good evening", "hey", "hi there", "hello there", "hello!", "hi!", "hey!","how are you", "how's it going", "how do you do"],
+      "responses": ["Hi there!", "How can I help you?", "Hello!", "Nice to see you!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "thank you very much", "I'm grateful", "you're awesome", "thanks for your help", "much appreciated", "you're the best"],
+      "responses": ["You're welcome!", "Glad I could help!", "No problem!", "Anytime!", "I'm here for that!", "With pleasure!", "That's nothing!", "Always happy to lend a hand!", "That's kind of you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "see you later", "farewell", "see you soon", "until next time", "bye", "have a good day", "have a good evening", "see you soon"],
+      "responses": ["Have a good day!", "Goodbye!", "See you soon!", "Farewell!", "Take care!", "See you later!", "Goodbye!", "Until next time!", "Good afternoon!", "Good evening!", "You're welcome!"]
+    },
+    {
+      "tag": "presentation",
+      "patterns": ["EST", "presentation", "about the school", "who are we", "what is EST Fkih Ben Salah"],
+      "responses": ["The Higher School of Technology of Fkih Ben Salah is a higher education institution. It was created with the aim of building the first university in al-Faqih bin Saleh."]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["contact", "how to contact you", "school phone number", "school email address", "school website"],
+      "responses": ["You can contact us at 05 23 43 46 66 or 05 23 43 49 99. Our email address is estfbs@usms.ma. You can also visit our website at estfbs.usms.ac.ma."]
+    },
+    {
+      "tag": "academic_programs",
+      "patterns": ["academic programs", "studies", "field of study", "fields of study", "open fields of study"],
+      "responses": ["At EST-FBS, we offer the following academic programs:\n- University Diploma in Technology (DUT):\n  - Civil Engineering\n  - Mining Engineering\n  - Computer Engineering\n  - Biological Engineering\n  - Agri-Food Industry\n  - Agrochemistry\n  - Decisional Informatics and Statistics\n  - Geometallurgy and Mining Geotechnics\n  - Chemistry & Analysis Techniques\n- Professional License:\n  - Irrigation Techniques and Renewable Energies\n  - Agri-Food Biotechnologies"]
+    },
+    {
+      "tag": "info_computer_engineering",
+      "patterns": ["information about the field of study", "computer engineering info", "field of study info", "computer engineering field of study"],
+      "responses": ["The Computer Engineering field of study aims to train technicians specialized in computer application development."]
+    },
+    {
+      "tag": "computer_engineering_goals",
+      "patterns": ["goals of the field of study", "what are the goals"],
+      "responses": ["The main goal of the Computer Engineering field of study is to train technicians specialized in computer application development."]
+    },
+    {
+      "tag": "computer_engineering_opportunities",
+      "patterns": ["career opportunities", "what are the opportunities"],
+      "responses": ["Graduates of the Computer Engineering field of study are in high demand in the job market due to their comprehensive technical training."]
+    },
+    {
+      "tag": "computer_engineering_admission_requirements",
+      "patterns": ["admission requirements", "how to access the field of study", "access conditions", "admission requirements"],
+      "responses": ["To access the Computer Engineering field of study, students must hold a scientific or technical baccalaureate, or an equivalent recognized diploma."]
+    },
+    {
+      "tag": "semester_1_modules_computer_engineering",
+      "patterns": ["semester 1 modules computer engineering", "semester 1 courses computer engineering", "semester 1 computer engineering", "semester 1 CE"],
+      "responses": ["The first semester of the Computer Engineering field of study consists of the following modules:\n- Algorithmics and Basic Programming\n- Computer Architecture\n- Mathematics\n- Languages and Techniques of Expression and Communication in Computer Science"]
+    }
+  ]
+}
