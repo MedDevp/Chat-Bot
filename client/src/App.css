@@ -1,0 +1,299 @@
+/* App.css
+
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #3369FF;
+    text-align: center;
+  }
+  
+  .chat-box {
+    overflow-y: auto;
+    max-height: calc(100vh - 250px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #3369FF;
+    color: #FFFFFF;
+    width: fit-content;
+    margin-left: auto; 
+    border-radius: 40px 0px 40px 40px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .bot-message {
+    background-color: #EEEEEE;
+    text-align: left;
+    color: #656565;
+    width: fit-content;
+    border-radius: 40px 40px 40px 0px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  .input-container{
+    border: 1px solid #dcdbdb;
+    padding: 7px 10px;
+    border-radius: 15px;
+  }
+  button {
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .disclaimer {
+    font-size: 11px;
+    color: #888888;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #user-form{
+    display: flex;
+    justify-content: space-between;
+  }
+ */
+
+
+
+/* App.css */
+/* *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    position: relative;
+    max-width: 600px;
+    height: calc(100vh - 40px);
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+  
+  h1 {
+    color: #3369FF;
+    text-align: center;
+  }
+  
+  .chat-box {
+    overflow-y: auto;
+    flex-grow: 1; 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+  
+  .message {
+    margin: 10px;
+    padding: 0px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .user-message {
+    background-color: #3369FF;
+    color: #FFFFFF;
+    width: fit-content;
+    margin-left: auto; 
+    border-radius: 40px 0px 40px 40px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: #959da533 0px 8px 24px;
+
+  }
+  
+  .bot-message {
+    background-color: #EEEEEE;
+    text-align: left;
+    color: #656565;
+    width: fit-content;
+    border-radius: 40px 40px 40px 0px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+    border: 1px #959da50d solid;
+    box-shadow: #959da533 0px 8px 24px;
+
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  button {
+    padding: 7px 14px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-container {
+    margin-top: auto; 
+    border: 1px solid #dcdbdb;
+    padding: 7px 10px;
+    border-radius: 15px;
+}
+
+.disclaimer {
+    font-size: 11px;
+    color: #888888;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+  #user-form{
+    display: flex;
+    justify-content: space-between;
+  }
+  .robot-icon-container {
+    position: absolute;
+    bottom: -20px;
+    left: -0px; 
+  }
+  
+  .robot-icon {
+    width:13px;
+    height:13px;
+    color: #3369FF;
+
+  }
+  .welcomeScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  /* .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3369ff;
+    z-index: 999; /* Ensure it appears above other elements 
+  } */
+  
+ 
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #030C1A; /* Add transparency to the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .overlay::before{
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px; 
+    background-color:#1100ffb1;
+    border-radius: 50%;
+    z-index: 1; 
+    filter: blur(100px);
+  }
+  .overlay::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    transform: translate(30%,-30%);
+    width: 200px;
+    height: 200px; 
+    background-color:#2112efb1;
+    border-radius: 50%;
+    z-index: 1; 
+    filter: blur(100px);
+  }
+  .logo {
+    width: 200px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
